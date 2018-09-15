@@ -19,10 +19,6 @@ $('#slider').vegas({
   slides: [
       { src: 'Bootstrap 4 Portfolio Template For Developers_files/vegasSlider/vegas (1).jpg' },
       { src: 'Bootstrap 4 Portfolio Template For Developers_files/vegasSlider/vegas (2).jpg' },
-      { src: 'Bootstrap 4 Portfolio Template For Developers_files/vegasSlider/vegas (2).jpg' },
-      { src: 'Bootstrap 4 Portfolio Template For Developers_files/vegasSlider/vegas (2).jpg' },
-      { src: 'Bootstrap 4 Portfolio Template For Developers_files/vegasSlider/vegas (2).jpg' },
-      { src: 'Bootstrap 4 Portfolio Template For Developers_files/vegasSlider/vegas (2).jpg' },
       { src: 'Bootstrap 4 Portfolio Template For Developers_files/vegasSlider/vegas (3).jpg' },
       { src: 'Bootstrap 4 Portfolio Template For Developers_files/vegasSlider/vegas (4).jpg' },
       { src: 'Bootstrap 4 Portfolio Template For Developers_files/vegasSlider/vegas (5).jpg' },
