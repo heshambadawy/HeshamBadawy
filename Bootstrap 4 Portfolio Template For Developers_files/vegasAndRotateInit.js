@@ -5,7 +5,9 @@
 
 // Pictures from Unsplash
 // http://unsplash.com/
-
+ function initVegasMorph()
+ {
+  $('#vegas-header').show();
 $('#slider').vegas({
   overlay: true,
   transition: 'fade', 
@@ -38,9 +40,10 @@ $('#slider').vegas({
 });
 $("#js-rotating").Morphext({
   animation: "rotateIn",
-  speed: 10200,
+  speed: 10800,
   
   complete: function () {
       console.log("This is called after a phrase is animated in! Current phrase index: " + this.index);
   }
 });
+}

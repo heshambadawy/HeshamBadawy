@@ -606,7 +606,7 @@
 
         </header><!--//header-->
         <!--morphtext and vegas-->
-        <section style="margin-top:4px">
+        <section style="margin-top:4px" id="vegas-header">
             <div id="rotatevegas">
                 <div style="text-align:center" id="rotate">
                     passionate about <span id="js-rotating">working any time any  where .. In a fun way,stay up and work to achive it, coding to control a hardware, cooperation to get the best solution /idea,try and try ..then try...and finaly try 😄 "No Escape ✋ " ,Working in a cooperative and productive team,share  knowldge , high speed network..suitable desk..light .. a comfiy Chair..cute plushie 😉 "my owin workstation" ,focused  on  it ,involving  in  lines  of  code,working  in wonderful environment</span>
@@ -860,6 +860,7 @@
             debugger;
             ////window.location = "https://tyyarstageapi.azurewebsites.net/help";
             $('#content-after-splach').hide();
+            $('#vegas-header').hide();
 
         }
         );
@@ -869,6 +870,7 @@
             setTimeout(function () {
                 $('#splash').hide();
                 $('#content-after-splach').show();
+                initVegasMorph();
                 $("body").css("overflow", "initial");
             }, time);
 
